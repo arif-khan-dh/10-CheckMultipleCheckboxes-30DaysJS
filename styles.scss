@@ -44,12 +44,10 @@ form {
     }
 
     label:hover {
-        // background: linear-gradient(to bottom, rgb(250, 250, 250), rgb(240, 240, 240));
         background: rgb(240, 240, 240);
     }
 
     label:hover + .input {
-        // background: linear-gradient(to bottom, rgb(250, 250, 250), rgb(240, 240, 240));
         background: rgb(240, 240, 240);
     }
 
@@ -62,7 +60,8 @@ form {
 .input {
     background-color: white;
     display: flex;
-    justify-content: center;        
+    justify-content: center;     
+    align-items: center;   
 }
 
 .line-through {
